@@ -1,0 +1,127 @@
+* {
+    color: black;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  line-height: 1.4em;
+color: #333;
+margin: 0;
+ background: #f3e4cbee;
+}
+
+h1{
+    font-size: 2rem;
+    color: black;
+    line-height: 1.3em;
+    text-align:center;
+     margin-bottom: 100px;
+     margin-top: -50;
+}
+h2 {
+    color: black;
+}
+p{
+    margin-bottom: 1.6em;
+}
+
+ /* Empezamos con el contenido de la página*/
+
+
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background:#1cbbc4;
+    color: black;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.LOGO {
+    letter-spacing: 15px;
+    font-size: 3.em;
+}
+
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+
+
+ .navegation ul li {
+ display: inline-block;
+ 
+ }
+
+  .navegation ul li a {
+      display: block;
+      padding: 0.5rem  1;
+      transition: 0.4s all linear;
+      border-radius: 5px;
+      margin-right: 20px;
+  }
+ 
+
+  .navegation ul li a:hover {
+      background-color: #ccc;
+  }
+
+.menu-icon {
+    display: none;
+}
+
+.main {
+    padding-top: 12rem;
+}
+
+ .footer {
+     background-color: #1cbbc4;
+     text-decoration: cornsilk;
+     padding: 16px ;
+     text-align: center;
+     font-size: 20px;
+     margin-top: 16px;
+ }
+
+
+    .menu-icon {
+        display: block ;
+        cursor: pointer;
+        padding: 0.5rem  1rem;
+        color: antiquewhite;
+    }   
+
+    
+    
+
+    
+   
+
+  
+    
+
+
+ 
